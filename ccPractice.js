@@ -35,7 +35,7 @@ function reverseOrder(s){
 
 // Create a function called userHelp that takes in a callback function and a quote. Invoke the callback function using the quote as an argument. Return the result of the callback. This should take a user defined quote and reverse the order of the quote.
 
-function userHelp(cb, quote){
+function userHelp(cb,quote){
   return cb(quote);
 };
 
